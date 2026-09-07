@@ -1,6 +1,6 @@
 # SwapLibrary
 
-VB6 working copy of `SwapLibrary` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: SwapLibrary. Output: `SwapLibrary.exe`.
+VB6 Swap DRIMS Library tool (`SwapLibrary.exe`) with a picker (or CLI option) to switch DocsOpen/DRIMS library integration among CDC, DRIMS, Sunrise, Vincent Enfield, Onshore Projects, or disabled — using Active DS and REGTool5 registry updates. Related to sibling `SetLibrary`. Open `SwapLibrary.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 working copy of `SwapLibrary` from Dave Robinson's OneDrive Historical Dev `
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `SwapLibrary` (`SwapLibrary.vbp`) | VB6 | WinForms exe | SwapLibrary |
+| `SwapLibrary` (`SwapLibrary.vbp`) | VB6 | WinForms exe | Switch DocsOpen/DRIMS library via UI or CLI |
 
 ## How to open
 
@@ -18,6 +18,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Requirements
 
 - Visual Basic 6.0 IDE
+- Historical deps as referenced: Active DS, REGTool5
 
 ## Attribution and provenance
 
