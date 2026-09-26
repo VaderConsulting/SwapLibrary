@@ -1,8 +1,8 @@
 # SwapLibrary
 
-VB6 Swap DRIMS Library tool (`SwapLibrary.exe`) with a picker (or CLI option) to switch DocsOpen/DRIMS library integration among CDC, DRIMS, Sunrise, Vincent Enfield, Onshore Projects, or disabled — using Active DS and REGTool5 registry updates. Related to sibling `SetLibrary`. Open `SwapLibrary.vbp` in the VB6 IDE.
+VB6 Swap DRIMS Library tool (`SwapLibrary.exe`) with a picker (or command-line option) to switch the DocsOpen/DRIMS library integration among CDC, DRIMS, Sunrise, Vincent Enfield, Onshore Projects, or disabled, using Active DS and REGTool5 registry updates. Related to sibling `SetLibrary`. Open `SwapLibrary.vbp` in the VB6 IDE.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
+**Source last updated:** 2003-04-03 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
 ## Solution structure
 
@@ -18,11 +18,12 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Requirements
 
 - Visual Basic 6.0 IDE
-- Historical deps as referenced: Active DS, REGTool5
+- Active DS Type Library (activeds.tlb)
+- REGTool5 (Visual Studio 6 APE REGTOOL5.DLL)
 
 ## Attribution and provenance
 
-Working copy from my Historical Dev folder `VB/SwapLibrary`.
+Working copy from my Historical Dev folder `VB/SwapLibrary`. Sample group list: `groupnames.ini`; notes in `documentation.xml`.
 
 ## License
 
